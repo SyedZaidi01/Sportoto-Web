@@ -1,0 +1,159 @@
+/* Trapezoid */
+.trapezoid {
+  border-bottom: 115px solid #df0024;
+  border-right: 70px solid transparent;
+  height: 0;
+  float: left;
+}
+/* Trapezoid */
+
+/* sliderCaption */
+.sliderCaption {
+  h1 {
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
+  }
+  p {
+    opacity: 0.6;
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding-left: 0px;
+  }
+  h4 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    font-family: "Montserrat";
+  }
+  h5,
+  h6 {
+    margin-left: 15px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+  }
+  .calendarRow {
+    margin-top: 20px;
+    h5 {
+      font-family: "Montserrat";
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+    }
+    h6 {
+      opacity: 0.6;
+      font-family: "Montserrat";
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+}
+/* sliderCaption */
+
+//carouselWrap
+.carouselWrap {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+//carouselWrap
+
+//carouselRightWrap
+.carouselRightWrap {
+  // padding-left: 0px;
+}
+//carouselRightWrap
+.carouselItem {
+  img {
+    width: 100%;
+    min-width: 500px;
+  }
+}
+.carouselRightCard {
+  background-repeat: no-repeat !important;
+  height: 150.3px;
+  background-size: cover !important;
+  background-position: right !important;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 63px 0px 125px black;
+  padding-left: 26px;
+  h1{
+    color: white;
+    font-size: 14.5px;
+    font-family: 'Poppins';
+    text-align: left;
+  }
+  h2{
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: left;
+    color: white;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .sliderCaption {
+    h1 {
+      font-size: 20px !important;
+    }
+    p{
+      font-size: 13px;
+    }
+    h4{
+      font-size: 12px;
+    }
+    h5,h6{
+      font-size: 11px;
+    }
+  }
+  .calendarRow{
+    display: none;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sliderCaption {
+    h1 {
+      font-size: 35px !important;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .calendarRow{
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sliderCaption {
+    h1 {
+      font-size: 40px !important;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
