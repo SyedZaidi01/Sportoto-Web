@@ -1,0 +1,301 @@
+.smallCardsUpperRow {
+  margin-top: 20px;
+}
+.smallCardsLowerRow {
+  margin-top: 20px;
+}
+.imageWrap {
+  position: relative;
+  img {
+    min-height: 200px;
+  }
+}
+.imageWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 90px 72px #24252f;
+}
+.haberlerTop {
+  position: relative;
+}
+.haberlerTop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 694px 92px #24252f;
+}
+.cardContentWrap {
+  height: 100%;
+  width: 100%;
+}
+.contentUpper {
+  position: absolute;
+  // top: 3%;
+  padding: 30px;
+  button {
+    background: #df0024;
+    // height: 23px;
+    font-size: 12px;
+    // width: 100px;
+  }
+}
+.contentLower {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+  h1 {
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+  }
+  h2 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+  }
+}
+.haberlerHeading {
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 300;
+  color: #24252f;
+  position: relative;
+  padding-left: 0px;
+  text-align: left;
+  width: 100%;
+  //   border-bottom: 2px solid #df0024;
+  span {
+    font-weight: 800;
+  }
+}
+.haberlerHeadingWrap {
+  position: relative;
+  margin-bottom: 10px;
+  border-bottom: 2px solid red;
+  h2 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    width: fit-content;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    margin-top: 7px;
+  }
+}
+.haberlerHeadingWrap::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 12px solid red;
+  border-left: 12px solid transparent;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.haberlerLeftCol {
+  padding-left: 0px;
+}
+.skorlerCard {
+  padding-top: 10px;
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    color: #df0024;
+    text-align: center;
+    width: 80%;
+    line-height: 3;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  h3 {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+  }
+  h4 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+}
+.skorlerHeadingWrap {
+  width: 100%;
+  background: #24252f;
+  height: 52px;
+  position: relative;
+  h1 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 17px;
+    margin-left: 20px;
+  }
+  svg {
+    color: #24252f;
+    z-index: 2;
+  }
+}
+.skorlerHeadingWrap::after {
+  content: "";
+  position: absolute;
+  border-bottom: 52px solid #df0024;
+  border-left: 52px solid transparent;
+  border-right: 0px solid transparent;
+  height: 0;
+  right: 0;
+  width: 96px;
+  z-index: 0;
+}
+.chevronWrap {
+  z-index: 1;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.skorlerHeadingRightChevron {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.spordaBugun {
+  width: 100%;
+  background: #24252f;
+  margin-top: 16px;
+  .spordaBugunHeading {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: flex-start;
+  }
+  h1 {
+    color: white;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .spordaBugunImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  img {
+    width: 100%;
+  }
+  h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+  }
+}
+.spordaBugunCalender {
+  background: #24252f;
+  .spordaBugunCalenderRow {
+    display: flex;
+    h3 {
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      color: white;
+    }
+    h4 {
+      opacity: 0.6;
+      font-family: "Montserrat";
+      font-size: 13px;
+      color: white;
+      padding-left: 15px;
+      border-left: 2px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 0px;
+      height: 65.25px;
+    }
+  }
+}
+.spordaBugunCalenderRow:hover {
+  h4 {
+    border-left: 2px solid rgba(223, 0, 36, 1);
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+  }
+}
+// .triangle {
+//   width: 0;
+//   height: 0;
+//   border-bottom: 100px solid red;
+//   border-left: 100px solid transparent;
+// }
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+  .contentLower {
+    h1 {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 11px;
+    }
+  }
+  .imageWrap::after {
+    box-shadow: inset 0 0 90px 30px #24252f;
+  }
+  .haberlerTop::after {
+    box-shadow: inset 0 0 694px 30px #24252f;
+  }
+  .haberlerLeftCol {
+    padding-right: 0px;
+  }
+  .haberlerBottomWrap {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .haberlerLeftCol {
+    padding-right: 0px;
+  }
+  .haberlerBottomWrap {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .haberlerLeftCol {
+    padding-right: 0px;
+  }
+  .haberlerBottomWrap {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
