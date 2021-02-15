@@ -448,34 +448,34 @@ const Haberler = () => {
           </div>
           <div className={Styles.spordaBugunCalender}>
             <div className={Styles.spordaBugunCalenderRow}>
-              <Col xl={{ span: 3 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 3 }} lg={{span: 3}} md={{span: 3}} sm={{}} xs={{span: 3}}>
                 <h3>16:48</h3>
               </Col>
-              <Col xl={{ span: 9 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 9 }} lg={{span: 9}} md={{span: 9}} sm={{}} xs={{}}>
                 <h4>Lionel Messi, Barcelona’dan ayrılma kararı aldı</h4>
               </Col>
             </div>
             <div className={Styles.spordaBugunCalenderRow}>
-              <Col xl={{ span: 3 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 3 }} lg={{span: 3}} md={{span: 3}} sm={{}} xs={{span: 3}}>
                 <h3>15:24</h3>
               </Col>
-              <Col xl={{ span: 9 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 9 }} lg={{span: 9}} md={{span: 9}} sm={{}} xs={{}}>
                 <h4>Türkiye Milli Takımı aday kadrosu açıklandı</h4>
               </Col>
             </div>
             <div className={Styles.spordaBugunCalenderRow}>
-              <Col xl={{ span: 3 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 3 }} lg={{span: 3}} md={{span: 3}} sm={{}} xs={{span: 3}}>
                 <h3>12:28</h3>
               </Col>
-              <Col xl={{ span: 9 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 9 }} lg={{span: 9}} md={{span: 9}} sm={{}} xs={{}}>
                 <h4>Olimpiyatlarda 5. altın madalyamızı aldık</h4>
               </Col>
             </div>
             <div className={Styles.spordaBugunCalenderRow}>
-              <Col xl={{ span: 3 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 3 }} lg={{span: 3}} md={{span: 3}} sm={{}} xs={{span: 3}}>
                 <h3>11:42</h3>
               </Col>
-              <Col xl={{ span: 9 }} lg={{}} md={{}} sm={{}} xs={{}}>
+              <Col xl={{ span: 9 }} lg={{span: 9}} md={{span: 9}} sm={{}} xs={{}}>
                 <h4>Türkiye kupası finali Konya’da olacak!</h4>
               </Col>
             </div>

@@ -1,0 +1,34 @@
+.faydaliLinklerHeadingWrap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 2px solid #e00a2c;
+  h1 {
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-top: 17px;
+  }
+}
+.faydaliLinklerHeadingWrap::after {
+  content: "";
+  position: absolute;
+  border-bottom: 59px solid #df0024;
+  border-left: 59px solid transparent;
+  border-right: 0px solid transparent;
+  height: 0;
+  right: 0;
+  width: 96px;
+  z-index: 0;
+}
+.faydaliLinklerChevronWrap {
+  z-index: 1;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 20px;
+
+  .chevronRight {
+    margin-left: 10px;
+  }
+}
