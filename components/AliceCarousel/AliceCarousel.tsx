@@ -1,6 +1,10 @@
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container } from "next/app";
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Styles from './AliceCarousel.module.scss';
 
 const AliceSlider = () => {
   const handleDragStart = (e) => e.preventDefault();
@@ -38,16 +42,26 @@ const AliceSlider = () => {
   ];
 
   return (
-    <AliceCarousel
-      disableButtonsControls={true}
-      disableDotsControls={true}
-      autoPlay={true}
-      infinite={true}
-      responsive={responsive}
-      mouseTracking
-      items={items}
-      animationDuration={2000}
-    />
+    <Container >
+      <div className={Styles.faydaliLinklerHeadingWrap} style={{marginTop:"40px",marginBottom:"30px"}}>
+        <h1 className={"w-100"}><span>Faydalı</span> Linkler</h1>
+        <div className={Styles.faydaliLinklerChevronWrap}>
+          <FontAwesomeIcon icon={faChevronLeft} className={Styles.chevronLeft}/>
+          <FontAwesomeIcon icon={faChevronRight} className={Styles.chevronRight}/>
+        </div>
+      </div>
+      <AliceCarousel
+        disableButtonsControls={true}
+        disableDotsControls={true}
+        autoPlay={true}
+        infinite={true}
+        responsive={responsive}
+        mouseTracking
+        items={items}
+        animationDuration={2000}
+        
+      />
+    </Container>
   );
 };
 

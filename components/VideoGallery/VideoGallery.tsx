@@ -19,7 +19,7 @@ const VideoGallery = () => {
 
   return (
     <div
-      className="container d-xl-flex d-lg-flex d-md-flex d-sm-block d-block"
+      className="d-xl-flex d-lg-flex d-md-flex d-sm-block d-block"
       style={{ marginTop: "30px" }}
     >
       <Col xl={{ span: 8 }} lg={{span:8}} md={{span:8}} sm={{span:12}} style={{ paddingLeft: "0px" }} className={Styles.videoGalleryGridWrap}>

@@ -6,13 +6,21 @@ import Styles from "./SocialMediaRibbon.module.scss";
 
 const SocialMediaRibbon = () => {
   return (
-    <Row style={{ width: "100%", left: "0", marginTop:"50px",marginRight:"0px",marginLeft:"0px" }}>
+    <Row
+      style={{
+        width: "100%",
+        left: "0",
+        marginTop: "50px",
+        marginRight: "0px",
+        marginLeft: "0px",
+      }}
+    >
       <Col
         xl={{ span: 6 }}
-        lg={{span: 6}}
-        md={{span: 12}}
-        sm={{span:12}}
-        xs={{span:12}}
+        lg={{ span: 6 }}
+        md={{ span: 12 }}
+        sm={{ span: 12 }}
+        xs={{ span: 12 }}
         className={Styles.socialMediaRibbonYoutube}
       >
         <div>
@@ -34,22 +42,24 @@ const SocialMediaRibbon = () => {
             style={{ display: "flex", justifyContent: "flex-end" }}
           >
             <Form className={Styles.socialMediaSearchForm}>
-              <input
-                type="text"
-                placeholder="Mail adresiniz..."
-                name="search"
-              />
-              <Button type="submit">Kayıt Ol</Button>
+              <div style={{display:"flex", height:"42px"}}>
+                <input
+                  type="text"
+                  placeholder="Mail adresiniz..."
+                  name="search"
+                />
+                <Button type="submit">Kayıt Ol</Button>
+              </div>
             </Form>
           </Col>
         </div>
       </Col>
       <Col
         xl={{ span: 3 }}
-        lg={{span: 3}}
-        md={{span: 6}}
-        sm={{span:12}}
-        xs={{span:12}}
+        lg={{ span: 3 }}
+        md={{ span: 6 }}
+        sm={{ span: 12 }}
+        xs={{ span: 12 }}
         className={Styles.socialMediaRibbonFacebook}
       >
         <div>
@@ -77,10 +87,10 @@ const SocialMediaRibbon = () => {
       </Col>
       <Col
         xl={{ span: 3 }}
-        lg={{span: 3}}
-        md={{span: 6}}
-        sm={{span:12}}
-        xs={{span:12}}
+        lg={{ span: 3 }}
+        md={{ span: 6 }}
+        sm={{ span: 12 }}
+        xs={{ span: 12 }}
         className={Styles.socialMediaRibbonTwitter}
       >
         <div>

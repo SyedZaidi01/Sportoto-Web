@@ -22,7 +22,6 @@ export default function Home() {
       <Container>
         <VideoGallery/>
         <AliceSlider/>
-        <h1>hello world</h1>
       </Container>
     </Layout>
   );
